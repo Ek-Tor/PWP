@@ -6,3 +6,9 @@ let input = document.getElementById("name").value;
 // with Welcome: + the users input from the text box
 document.getElementById("bread").innerHTML = "Welcome: " + input;
 };
+ //pop-up alert
+$( document ).ready(function() {
+    $('#btn').click(function() {
+        window.alert("DID YOU JUST CLICK ME?!");
+    });
+});
