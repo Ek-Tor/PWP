@@ -3,14 +3,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
+
     <script src= " script.js" defer></script>
     <link rel="stylesheet" href="/css/style.css">
 
     <head>
-        <title id="krtn"> Welcome Page</title>
+        <title id="krtn"> My Personal WEb Page </title>
 
     </head>
+
+        <div class="container">
+
+            <div class="item"> 
+                <button class="btn"><i class=" ">Soemthign</i></button>
+             </div>
+
+            <div class="item">
+                <button class="btn"><i class=" ">Else</i></button>
+             </div>
+
+            <div class="item">
+                <button class="btn"><i class=" ">To See</i></button>
+             </div>
+        </div>
 
     <header> 
         <h1 id ="bread"> Welcome! </h1>
@@ -20,7 +35,7 @@
 
 	<body>
 
-        <p>Enter you name: </p>
+        <p> Enter you name: </p>
 
         <form action="/submit" method="POST">
         <label for="name"> Name: </label>
@@ -31,17 +46,31 @@
         <button onclick="update()">
            Submit
         </button>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
             <button id="btn">
                 Click me
             </button>
+            <br>
+     
+            <nav>
+                <a href="https://www.linkedin.com/in/hek-thor-14636436b" class="fa fa-linkedin"> </a>
+                <br>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </nav>
+            <nav1>
+                <a href="https://www.youtube.com/channel/UC1vtqPNbZM532NzB10In8Ww" class="fa fa-youtube"> </a>
+               
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </nav1>
+   
+             
         <div id="kitty">
-            <img src="Images/YORElig.jpg" alt="This is a picture.">
+            <img src="Images/YORElig.jpg" alt= "This is a picture.">
         </div>
 <br>
-            <nav>
-                <a href="https://www.linkedin.com/in/hek-thor-14636436b"> My LinkedLn </a>
-                <br>
-            </nav>  
+             
     </body>
 </html>
+
+php -S localhost:8080 -t ./

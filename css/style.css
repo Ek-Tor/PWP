@@ -1,0 +1,39 @@
+#kitty{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+a:hover
+    {
+        color:black;
+    }
+
+.container
+    {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;
+        align-items:left;
+        height:20px;
+        background-color: rgb(197, 109, 109);  
+    }
+
+.btn
+    {
+    border-color: #16f033;
+    color: black;
+    }
+.btn:hover {
+  background-color: rgb(241, 245, 20);
+}
+.fa-youtube {
+  background: #fcfafa;
+  color: rgb(252, 4, 4);
+}
+.fa-linkedin {
+  background: #fffefe;
+  color: rgb(58, 4, 252);
+}

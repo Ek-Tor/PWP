@@ -4,8 +4,9 @@ let input = document.getElementById("name").value;
 
 //this will be changing the elements that have the tag name
 // with Welcome: + the users input from the text box
-document.getElementById("bread").innerHTML = "Welcome: " + input;
+document.getElementById("bread").innerHTML = "Hello " + input ;
 };
+
  //pop-up alert
 $( document ).ready(function() {
     $('#btn').click(function() {
