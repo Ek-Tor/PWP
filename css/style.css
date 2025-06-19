@@ -7,22 +7,19 @@
     font-family: 'poppins',sans-serif;
   }
 
-:root
-  {
+:root {
     --clr:#222327;
   }
 
-body
-  {
-    display: flex;
+body {
+  display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: var(--clr);
   }
 
-.nav
-  {
+.nav {
     width: 400px;
     height: 70px;
     background: #ffff;
@@ -32,14 +29,12 @@ body
     border-radius: 10px;
   }
 
-.nav ul
-  {
+.nav ul {
     display: flex;
     width: 250px;
   }
 
-  .nav ul li
-  {
+  .nav ul li {
     position: relative;
     list-style: none;
     width: 70px;
@@ -47,8 +42,7 @@ body
     z-index: 1;
   }
 
-.nav ul li a
-  {
+.nav ul li a {
     position:relative;
     display: flex;
     justify-content: center;
@@ -59,8 +53,7 @@ body
     font-weight: 500;
   }
 
-.nav ul li a .icon
-  {
+.nav ul li a .icon {
     position: relative;
     display: block;
     line-height: 75px;
@@ -70,13 +63,11 @@ body
     color:var(--clr);
   }
 
-.nav ul li .active a .icon
-  {
+.nav ul li .active a .icon {
     transform: translateY(-32px);
   }
 
-.nav ul li a .text
-  {
+.nav ul li a .text {
     position: absolute;
     color: var(--clr);
     font-weight: 400;
@@ -87,15 +78,13 @@ body
     transform: translateY(20px);
   }
 
-.nav ul li .active a .text
-  {
+.nav ul li .active a .text {
     opacity: 1;
     transform: translateY(10px);
   }
 
-.indicator
-  {
-    position: absolute;
+.indicator{
+    position:relative;
     top: -50px;
     width: 70px;
     height: 70px;
@@ -105,9 +94,8 @@ body
     transition: 0.5s;
   }
 
-.indicator::before
-  {
-    content: " ";
+.indicator::before {
+    content: ' ';
     position: absolute;
     top: 50px;
     left: -22px ;
@@ -117,9 +105,8 @@ body
     box-shadow: 1px -10px 0 0 var(--clr);
   }
 
-.indicator::after
-  {
-    content: " ";
+.indicator::after {
+    content: '';
     position: absolute;
     top: 50px;
     right: -20px ;
@@ -150,10 +137,7 @@ body
     transform: translateX(calc(70px * 3));
   }
 
-  .nav ul li:nth-child(5).active ~ .indicator
-  {
-    transform: translateX(calc(70px * 4));
-  }
+ 
 /*
 #kitty{
     width: 10px;
