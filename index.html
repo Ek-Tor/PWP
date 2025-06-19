@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-
-    <script src= " script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-
+<html  lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title id="krtn"> My Personal Web Page </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src= " script.js" defer></script>
     </head>
     
     <head>
         <body>
             <div class = "nav">
                 <ul>
-                    <li class="list">
+                    <li class="list active">
                         <a href ="#">
                             <span class="icon">
                             <ion-icon name="planet-outline"></ion-icon>
@@ -25,7 +23,7 @@
                         </a>
                     </li>
 
-                    <li class="list active">
+                    <li class="list">
                         <a href ="#">
                             <span class="icon">
                                 <ion-icon name="build-outline"></ion-icon>
@@ -51,43 +49,15 @@
                             <span class="text">Bibliography</span>
                         </a>
                     </li>
+                    <div class="indicator"></div>
                 </ul>
-                <div class="indicator"></div>
+                
             </div>
-
-        
-           <!-- <script>
-                const list = document.querySelectorAll('.list');
-                function activelink()
-                {
-                    list.forEach((item)=>
-                    item.classList.remos('active'));
-                    this.classList.add('active');
-                }
-                list.forEach((item) =>
-                item.addEventListener('click',activelink));
-            </script>
-            -->
 
             <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-       <!--- <div class="container">
-
-            <div class="item"> 
-                <button class="btn"><i class=" ">Soemthign</i></button>
-             </div>
-
-            <div class="item">
-                <button class="btn"><i class=" ">Else</i></button>
-             </div>
-
-            <div class="item">
-                <button class="btn"><i class=" ">To See</i></button>
-             </div>
-        </div> 
-
-    <header> 
+   <!--<header> 
         <h1 id ="bread"> Welcome! </h1>
     </header>
 
@@ -95,14 +65,13 @@
 
 	<body>
 
-        <p> Enter you name: </p>
+        <p> txt </p>
 
         <form action="/submit" method="POST">
         <label for="name"> Name: </label>
         <input type= "name" id="name" name="name">
         </form>
 
-    <br> 
         <button onclick="update()">
            Submit
         </button>
@@ -123,9 +92,9 @@
                
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             </nav1>
-   
+        --> 
              
-       <div id="kitty">
+       <!--<div id="kitty">
             <img src="Images/YORElig.jpg" alt= "This is a picture.">
         </div>-->
 
