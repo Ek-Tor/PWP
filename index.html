@@ -9,10 +9,67 @@
 
     <head>
         <title id="krtn"> My Personal WEb Page </title>
-
+        <link rel="stylesheet" type="text/css"href="style.css">
     </head>
+    
+    <head>
+        <body>
+            <div class = "nav">
+                <ul>
+                    <li class="list">
+                        <a href ="#">
+                            <span class="icon">
+                            <ion-icon name="planet-outline"></ion-icon>
+                            </span>
+                            <span class="text">home</span>
+                        </a>
+                    </li>
 
-        <div class="container">
+                    <li class="list active">
+                        <a href ="#">
+                            <span class="icon">
+                                <ion-icon name="build-outline"></ion-icon>
+                            </span>
+                            <span class="text">Projects</span>
+                        </a>
+                    </li>
+
+                    <li class="list">
+                        <a href ="#">
+                            <span class="icon">
+                            <ion-icon name="images-outline"></ion-icon>
+                            </span>
+                            <span class="text">Photos</span>
+                        </a>
+                    </li>
+
+                    <li class="list">
+                        <a href ="#">
+                            <span class="icon">
+                            <ion-icon name="glasses-outline"></ion-icon>
+                            </span>
+                            <span class="text">Bibliography</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="indicator"></div>
+            </div>
+            <script>
+                const list = document.querySelectorAll('.list');
+                function activelink()
+                {
+                    list.forEach((item)=>
+                    item.classList.remos('actiive'));
+                    this.classList.add('active');
+                }
+                list.forEach((item) =>
+                item.addEventLsitener('click',activateLink));
+            </script>
+
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+       <!--- <div class="container">
 
             <div class="item"> 
                 <button class="btn"><i class=" ">Soemthign</i></button>
@@ -25,7 +82,7 @@
             <div class="item">
                 <button class="btn"><i class=" ">To See</i></button>
              </div>
-        </div>
+        </div> 
 
     <header> 
         <h1 id ="bread"> Welcome! </h1>
@@ -65,12 +122,12 @@
             </nav1>
    
              
-        <div id="kitty">
+       <div id="kitty">
             <img src="Images/YORElig.jpg" alt= "This is a picture.">
-        </div>
-<br>
+        </div>-->
+
              
     </body>
 </html>
 
-php -S localhost:8080 -t ./
+<!-- php -S localhost:8080 -t ./ -->
