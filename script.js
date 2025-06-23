@@ -42,5 +42,6 @@ $(document).ready(function () {
             link.classList.add('active');
             document.getElementById(tgtID).style.opacity = 1;
         });
+    
     }); 
 }); 

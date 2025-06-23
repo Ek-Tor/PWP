@@ -13,6 +13,10 @@
   }
 
 body {
+    background-image: url('https://github.com/Ek-Tor/PWP/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     justify-content:space-evenly;
@@ -29,6 +33,7 @@ body {
     align-items:center;
     border-radius: 100px;
 }
+/*
 .nav {
   position:absolute;
     width: 350px;
@@ -93,9 +98,10 @@ body {
     opacity: 1;
     transform: translateY(10px);
   }
+  */
 
 
-
+/*
   .nav ul li:nth-child(1).active~.indicator
   {
     transform: translateX(calc(70px * 0));
@@ -115,14 +121,14 @@ body {
   {
     transform: translateX(calc(70px * 3));
   }
-
+*/
    
 .imgSlideshow {
     position: relative;
     height: 400px;
     width: auto;
     max-width: 600px;
-    margin: auto;
+    margin: 10px;
     overflow: hidden;
 }
 
@@ -144,7 +150,7 @@ body {
     height: 400px;
     width: auto;
     max-width: 600px;
-    margin: auto;
+    margin: 10px;
     overflow: hidden;
 }
 
@@ -176,7 +182,7 @@ a:hover
   color: rgb(58, 4, 252);
 }
 
-
+/*
 .tabContent {
     position: absolute;
     transition: opacity 0.5s ease-in-out;
@@ -197,6 +203,6 @@ a:hover
 #me {
     opacity: 0;
 }
-
+*/
 
       
