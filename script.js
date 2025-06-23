@@ -10,20 +10,6 @@ const list = document.querySelectorAll(".list");
                 list.forEach((item) =>
                 item.addEventListener("click",activeLink));
 
-function update(){
-
-let input = document.getElementById("name").value;
-
-document.getElementById("bread").innerHTML = "Hello " + input ;
-};
-
- 
-$( document ).ready(function() {
-    $('#btn').click(function() {
-        window.alert("DID YOU JUST CLICK ME?!");
-    });
-});
-
 $(document).ready(function () {
     let idx = 0;
 
@@ -39,7 +25,8 @@ $(document).ready(function () {
 
     setInterval(slideshow, 5000);
 
-    const links = document.querySelectorAll('.list');
+    
+    const links = document.querySelectorAll('.tab');
     const tabContent = document.querySelectorAll('.tabContent');
 
     links.forEach(link => {
