@@ -19,7 +19,7 @@
             <div class = "nav">
                 <ul>
                     <li class="list active">
-                        <a href ="index.html">
+                        <a href ="home">
                             <span class="icon">
                             <ion-icon name="planet-outline"></ion-icon>
                             </span>
@@ -28,7 +28,7 @@
                     </li>
 
                     <li class="list">
-                        <a href ="projects.html">
+                        <a href ="projects">
                             <span class="icon">
                                 <ion-icon name="build-outline"></ion-icon>
                             </span>
@@ -37,7 +37,7 @@
                     </li>
 
                     <li class="list">
-                        <a href="photos.html" >
+                        <a href="#photos" >
                             <span class="icon">  
                             <ion-icon name="images-outline"> </ion-icon>
                             <span class="text">Photos</span>
@@ -45,7 +45,7 @@
                     </li>
 
                     <li class="list">
-                        <a href ="me.html">
+                        <a href ="me">
                             <span class="icon">
                             <ion-icon name="glasses-outline"></ion-icon>
                             </span>
@@ -64,8 +64,26 @@
                     </nav>
             </div>
 
+            <header>
+                <div class="tabContent" id= "home" style="opacity: 0;"></div>
+                <div class="tabContent" id= "projects" style="opacity: 0;"></div>
+                <div class="tabContent" id= "photos" style="opacity: 0;"></div>
+                <div class="imgSlideshow">
+                    <img class="slideshowItem" src="Images/IMG-20250623-WA0002.jpg" alt="">
+                    <img class="slideshowItem" src="Images/IMG-20250623-WA0004.jpg" alt="">
+                    <img class="slideshowItem" src="Images/IMG-20250623-WA0005.jpg" alt="">
+                    <img class="slideshowItem" src="Images/IMG-20250623-WA0006.jpg" alt="">
+                    <img class="slideshowItem" src="Images/IMG-20250623-WA0007.jpg" alt="">
+                    <img class="slideshowItem" src="Images/IMG-20250623-WA0008.jpg" alt="">
+                    <img class="slideshowItem active" src="Images/IMG-20250623-WA0009.jpg" alt="">
+                </div>
+                <div class="tabContent" id= "me" style="opacity: 0;"></div>
+            </header>
+
             <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+              
 </html>
 
 <!--php -S localhost:8080 -t ./ -->
