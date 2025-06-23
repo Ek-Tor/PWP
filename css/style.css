@@ -6,6 +6,16 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
   }
+  .bread {
+  position:absolute;
+    width: 350px;
+    height: 70px;
+    background: #f10909;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 10px;
+  }
 
 :root {
     --clr:#111111;
