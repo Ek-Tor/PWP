@@ -155,10 +155,11 @@ body {
 #kitty{
     width: 10px;
     height: 10px;
-    position: relative;
+    position::backdrop;
     top: 0;
     left: 0;
 }
+    
 
 a:hover
     {
