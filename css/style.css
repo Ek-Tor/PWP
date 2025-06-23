@@ -20,7 +20,7 @@ body {
   }
 
 .nav {
-  position:relative;
+  position:absolute;
     width: 350px;
     height: 70px;
     background: #fff;
@@ -31,7 +31,7 @@ body {
   }
 
 .nav ul {
-    display: flex-end;
+    display: flex;
     width: 300px;
   }
 
