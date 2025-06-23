@@ -20,8 +20,8 @@ body {
     height: 70px;
     background: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-end;
+    align-items:flex-start;
     border-radius: 10px;
   }
 
