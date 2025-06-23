@@ -18,10 +18,10 @@ body {
   position:relative;
     width: 350px;
     height: 70px;
-    background: #fff;
+    background: #030303;
     display: flex;
-    justify-content:flex-end;
-    align-items:flex-start;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
   }
 
