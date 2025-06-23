@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 *
   {
-    margin:0;
+    margin:auto;
     padding:0;
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 :root {
     --clr:#111111;
-    background:image(YORElig.jpg);
+    /*background:image(YORElig.jpg);*/
   }
 
 body {
