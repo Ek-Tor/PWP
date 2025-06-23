@@ -167,10 +167,10 @@ a:hover
     }
 
 .fa-youtube {
-  background: var(--clr);
+  background: var(#fff);
   color: rgb(252, 4, 4);
 }
 .fa-linkedin {
-  background: var(--clr);
+  background: var(#fff);
   color: rgb(58, 4, 252);
 }
